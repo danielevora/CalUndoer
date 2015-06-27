@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Include>
+  <?define ProductVersion="0.0.0.1" ?>
+  <?define ProductCode="*" ?>
+  <?define ProductName="CalUndoer" ?>
+  <?define UpgradeCode="{50EC7BD1-AFC0-4461-B6FD-425896E8C99F}" ?>
+</Include>

@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Installer", "Installer", "{B8361E31-F774-44BC-9759-224B56149F86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalUndoer", "..\source\CalUndoer.csproj", "{47A62ED8-9AD4-4EED-A22C-60ACB1B1653A}"
+EndProject
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "CalUndoer.Setup", "..\setup\CalUndoer.Setup.wixproj", "{C68D6300-478A-4FF2-B23C-D63C1976AF66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47A62ED8-9AD4-4EED-A22C-60ACB1B1653A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47A62ED8-9AD4-4EED-A22C-60ACB1B1653A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47A62ED8-9AD4-4EED-A22C-60ACB1B1653A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{47A62ED8-9AD4-4EED-A22C-60ACB1B1653A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{47A62ED8-9AD4-4EED-A22C-60ACB1B1653A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{47A62ED8-9AD4-4EED-A22C-60ACB1B1653A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47A62ED8-9AD4-4EED-A22C-60ACB1B1653A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47A62ED8-9AD4-4EED-A22C-60ACB1B1653A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{47A62ED8-9AD4-4EED-A22C-60ACB1B1653A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{47A62ED8-9AD4-4EED-A22C-60ACB1B1653A}.Release|x86.ActiveCfg = Release|Any CPU
+		{C68D6300-478A-4FF2-B23C-D63C1976AF66}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{C68D6300-478A-4FF2-B23C-D63C1976AF66}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{C68D6300-478A-4FF2-B23C-D63C1976AF66}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{C68D6300-478A-4FF2-B23C-D63C1976AF66}.Debug|x86.ActiveCfg = Debug|x86
+		{C68D6300-478A-4FF2-B23C-D63C1976AF66}.Debug|x86.Build.0 = Debug|x86
+		{C68D6300-478A-4FF2-B23C-D63C1976AF66}.Release|Any CPU.ActiveCfg = Release|x86
+		{C68D6300-478A-4FF2-B23C-D63C1976AF66}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{C68D6300-478A-4FF2-B23C-D63C1976AF66}.Release|Mixed Platforms.Build.0 = Release|x86
+		{C68D6300-478A-4FF2-B23C-D63C1976AF66}.Release|x86.ActiveCfg = Release|x86
+		{C68D6300-478A-4FF2-B23C-D63C1976AF66}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C68D6300-478A-4FF2-B23C-D63C1976AF66} = {B8361E31-F774-44BC-9759-224B56149F86}
+	EndGlobalSection
+EndGlobal
